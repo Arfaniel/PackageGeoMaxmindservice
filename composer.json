@@ -13,13 +13,9 @@
             "name": "ivan.avramenko"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "1.0",
     "require": {
-        "vagrant/package-geo-interface": "*",
+        "thereisnospoon/package-geo-interface": "*",
         "geoip2/geoip2": "~2.0"
-    },
-    "repositories": [{
-        "type": "path",
-        "url": "../package-geo-interface"
-    }]
+    }
 }
