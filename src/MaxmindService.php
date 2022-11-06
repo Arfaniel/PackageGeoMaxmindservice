@@ -6,6 +6,9 @@ use GeoIp2\Database\Reader;
 use GeoIp2\Model\Country;
 use Vagrant\Geo\PackageGeoInterface\GeoServiceInterface;
 
+/**
+ * @package vagrant/package-geo-maxmindservice v1.0
+ */
 class MaxmindService implements GeoServiceInterface
 {
     /** @var Reader */
