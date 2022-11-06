@@ -1,0 +1,25 @@
+{
+    "name": "vagrant/package-geo-maxmindservice",
+    "description": "maxmind service",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Vagrant\\PackageGeoMaxmindservice\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ivan.avramenko"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "vagrant/package-geo-interface": "*",
+        "geoip2/geoip2": "~2.0"
+    },
+    "repositories": [{
+        "type": "path",
+        "url": "../package-geo-interface"
+    }]
+}
